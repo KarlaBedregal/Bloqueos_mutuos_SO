@@ -1,0 +1,10 @@
+# Solicitudes dinamicas sobre estado_ejemplo.json
+seguro
+solicitar P1 1 0 2     # valida y segura -> CONCEDIDA
+solicitar P0 0 2 0     # valida pero insegura -> POSTERGADA
+solicitar P4 5 0 0     # mayor que Need[P4] -> ERROR
+solicitar P0 3 0 0     # mayor que Available -> EN ESPERA
+solicitar P9 1 1 1     # proceso inexistente -> ERROR
+solicitar P3 1 a 0     # valor no entero -> ERROR
+liberar P1 3 0 2       # P1 termina y devuelve lo que tiene
+estado
