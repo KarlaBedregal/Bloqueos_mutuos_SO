@@ -1,6 +1,6 @@
 # Gestor de recursos seguro – Algoritmo del banquero (Python)
 
-Sistemas Operativos · UNSA · 2026-B · Semana 8: Bloqueos mutuos
+Sistemas Operativos · Semana 8: Bloqueos mutuos
 Docente: MSc. Norman Patrick Harvey Arce · Alumna: Bedregal Coaguila, Karla Miluska
 
 Gestor con N procesos y M tipos de recurso. Recibe **Max**, **Allocation** y
